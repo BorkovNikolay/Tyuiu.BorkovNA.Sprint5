@@ -8,7 +8,7 @@ namespace Tyuiu.BorkovNA.Sprint5.Task0.V14.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string outputFile = $@"{Directory.GetCurrentDirectory()}/OutPutFileTask0.txt";
+            string outputFile = Path.Combine(Path.GetTempPath() ,"OutPutFileTask0.txt");
             double result = (4*Math.Pow(x,3))/(Math.Pow(x, 3)-1);
             result = Math.Round(result,3);
             File.WriteAllText(outputFile,Convert.ToString(result));
