@@ -4,7 +4,7 @@ using Tyuiu.BorkovNA.Sprint5.Task1.V6.Lib;
 
 
 
-namespace Tyuiu.BorkovNA.Sprint4.Task0.V20
+namespace Tyuiu.BorkovNA.Sprint4.Task1.V6
 {
     class Program
     {

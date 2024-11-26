@@ -1,10 +1,10 @@
 ﻿using System;
-using Tyuiu.BorkovNA.Sprint5.Task2.V4.Lib;
+using Tyuiu.BorkovNA.Sprint5.Task3.V9.Lib;
 
 
 
 
-namespace Tyuiu.BorkovNA.Sprint4.Task2.V4
+namespace Tyuiu.BorkovNA.Sprint4.Task3.V9
 {
     class Program
     {
@@ -16,8 +16,8 @@ namespace Tyuiu.BorkovNA.Sprint4.Task2.V4
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #5                                                                *");
             Console.WriteLine("* Тема: Операции сравнения                                                 *");
-            Console.WriteLine("* Задание #2                                                               *");
-            Console.WriteLine("* Вариант #4                                                               *");
+            Console.WriteLine("* Задание #3                                                               *");
+            Console.WriteLine("* Вариант #9                                                               *");
             Console.WriteLine("* Выполнил: Борков Н. А. | пктб-24-1                                       *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                 *");
@@ -26,7 +26,7 @@ namespace Tyuiu.BorkovNA.Sprint4.Task2.V4
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
-            int[,] n = { { 5, -5, -6 }, { -5, 6, -7 }, { 7, 3, 5 } };
+            int n = 3;
             Console.WriteLine(n);
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
