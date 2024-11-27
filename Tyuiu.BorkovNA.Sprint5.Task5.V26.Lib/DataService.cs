@@ -24,12 +24,12 @@ namespace Tyuiu.BorkovNA.Sprint5.Task5.V26.Lib
                         if (Convert.ToDouble(str2) > 0)
                         {
                             string str3 = str2.Replace(".", ",");
-                            res = res + Convert.ToDouble(str2);
+                            res = res + Convert.ToDouble(str3);
                         }
                         if (Convert.ToDouble(str2) < 0)
                         {
                             string str3 = str2.Replace(".", ",");
-                            res1 = res1 + Convert.ToDouble(str2);
+                            res1 = res1 + Convert.ToDouble(str3);
                         }
                         res3 = res - res1;
                     }
