@@ -18,7 +18,7 @@ namespace Tyuiu.BorkovNA.Sprint5.Task5.V26.Lib
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    string[] str = line.Split(',');
+                    string[] str = line.Split(' ');
                     foreach (string str2 in str)
                     {
                         if (Convert.ToDouble(str2) > 0)
