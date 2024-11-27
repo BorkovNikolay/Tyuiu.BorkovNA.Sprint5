@@ -26,14 +26,12 @@ namespace Tyuiu.BorkovNA.Sprint5.Task26.V9
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
-            string x = File.ReadAllText(Path.Combine("C:", "DataSprint5", "InPutDataFileTask5V26.txt"));
-            Console.Write(x + "\n");
-            Console.WriteLine("****************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
-            Console.WriteLine("****************************************************************************");
-            double res = ds.LoadFromDataFile(Path.Combine("C:", "DataSprint5", "InPutDataFileTask5V26.txt"));
-            Console.WriteLine("Файл" + res);
-            Console.WriteLine("Создан!");
+            string path = @"C:\DataSprint5\InPutDataFileTask5V1.txt";
+            Console.WriteLine("* Путь: " + path + " *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine(ds.LoadFromDataFile(path));
             Console.ReadKey();
 
         }
