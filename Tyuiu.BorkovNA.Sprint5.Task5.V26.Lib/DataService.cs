@@ -22,12 +22,12 @@ namespace Tyuiu.BorkovNA.Sprint5.Task5.V26.Lib
                     foreach (string str2 in str)
                     {
                         string str3 = str2.Replace(".", ",");
-                        if (Convert.ToDouble(str3) > 0)
+                        if (Convert.ToDouble(str3) > 0 && Convert.ToDouble(str3) % 1 != 0)
                         {
                             
                             res = res + Convert.ToDouble(str3);
                         }
-                        if (Convert.ToDouble(str3) < 0)
+                        if (Convert.ToDouble(str3) < 0 && Convert.ToDouble(str3) % 1 != 0)
                         {
 
                             res1 = res1 + Convert.ToDouble(str3);
