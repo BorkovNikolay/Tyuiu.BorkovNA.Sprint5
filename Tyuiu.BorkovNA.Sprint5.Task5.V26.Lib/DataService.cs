@@ -21,14 +21,15 @@ namespace Tyuiu.BorkovNA.Sprint5.Task5.V26.Lib
                     string[] str = line.Split(' ');
                     foreach (string str2 in str)
                     {
-                        if (Convert.ToDouble(str2) > 0)
+                        string str3 = str2.Replace(".", ",");
+                        if (Convert.ToDouble(str3) > 0)
                         {
-                            string str3 = str2.Replace(".", ",");
+                            
                             res = res + Convert.ToDouble(str3);
                         }
-                        if (Convert.ToDouble(str2) < 0)
+                        if (Convert.ToDouble(str3) < 0)
                         {
-                            string str3 = str2.Replace(".", ",");
+
                             res1 = res1 + Convert.ToDouble(str3);
                         }
                         res3 = res - res1;
