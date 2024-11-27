@@ -27,13 +27,18 @@ namespace Tyuiu.BorkovNA.Sprint5.Task5.V26.Lib
                             res1 = res1 + Convert.ToDouble(str2);
                         }
 
+                        
+                    }
+                    foreach (string str2 in str)
+                    {
                         if (Convert.ToDouble(str2) > 0)
                         {
                             string str3 = str2.Replace(".", ",");
                             res2 = res2 + Convert.ToDouble(str2);
                         }
-                        res = res2 - res1;
+
                     }
+                    res = res2 - res1;
                 }
             }
             res = Math.Round(res, 3);
