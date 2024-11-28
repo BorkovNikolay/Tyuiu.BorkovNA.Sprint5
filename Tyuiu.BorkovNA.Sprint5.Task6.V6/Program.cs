@@ -26,7 +26,7 @@ namespace Tyuiu.BorkovNA.Sprint5.Task6.V6
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
-            string path = @"C:\DataSprint5\InPutDataFileTask6V66.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V6.txt";
             Console.WriteLine("* Путь: " + path + " *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
